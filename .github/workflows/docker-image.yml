@@ -38,7 +38,7 @@ jobs:
     #Realizar push de la imagen a docker
     - name: Push Docker Image
       run: |
-        docker push chopiyi/docker-graphql:0.0.2 .
+        docker push -t chopiyi/docker-graphql:0.0.2 .
       
         
     # - name: Build the Docker image
